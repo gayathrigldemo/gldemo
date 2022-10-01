@@ -5,7 +5,7 @@ pipeline {
         stage('GitCheckout') {
             steps {
                 echo 'Hello World'
-               
+          }     
          
         }
     }
