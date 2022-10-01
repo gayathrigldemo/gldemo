@@ -5,8 +5,8 @@ pipeline {
         stage('GitCheckout') {
             steps {
                 echo 'Hello World'
-                git branch: 'main', credentialsId: 'Gitlogin', url: 'https://github.com/gayathrigldemo/gldemo.git'
-            }
+               
+         
         }
     }
 }
